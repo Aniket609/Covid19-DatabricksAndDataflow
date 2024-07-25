@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "aniket-covid-19-adf"
+		},
+		"AzureDatabricksCovid19_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabaseCovid19_password": {
+			"value": ""
+		},
+		"Covid19ADLSGen2_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricksCovid19_properties_typeProperties_existingClusterId": {
+			"value": "0718-044128-3t5h1yn5"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://aniketdatabrickskeyvault.vault.azure.net/"
+		},
+		"AzureSqlDatabaseCovid19_properties_typeProperties_server": {
+			"value": "covid19srvr.database.windows.net"
+		},
+		"AzureSqlDatabaseCovid19_properties_typeProperties_database": {
+			"value": "covid_reporting"
+		},
+		"AzureSqlDatabaseCovid19_properties_typeProperties_userName": {
+			"value": "aniketcovid"
+		},
+		"Covid19ADLSGen2_properties_typeProperties_url": {
+			"value": "https://aniketcovid19.dfs.core.windows.net/"
+		}
+	}
+}
