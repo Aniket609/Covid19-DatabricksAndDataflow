@@ -1,0 +1,62 @@
+{
+	"name": "processedCasesAndDeaths",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Covid19ADLSGen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "part-00000-0c74e269-1b32-497a-af6e-4bc393bc0ab9-c000.csv",
+				"folderPath": "cases-and-deaths",
+				"fileSystem": "processed"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "country",
+				"type": "String"
+			},
+			{
+				"name": "country_code",
+				"type": "String"
+			},
+			{
+				"name": "continent",
+				"type": "String"
+			},
+			{
+				"name": "population",
+				"type": "String"
+			},
+			{
+				"name": "indicator",
+				"type": "String"
+			},
+			{
+				"name": "daily_count",
+				"type": "String"
+			},
+			{
+				"name": "date",
+				"type": "String"
+			},
+			{
+				"name": "rate_14_day",
+				"type": "String"
+			},
+			{
+				"name": "source",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

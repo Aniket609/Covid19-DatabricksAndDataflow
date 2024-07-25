@@ -1,0 +1,25 @@
+{
+	"name": "processedHospitalAdmissionWeekly",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Covid19ADLSGen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "weekly_hospital_admission.csv",
+				"folderPath": "hospital_admission/weekly",
+				"fileSystem": "processed"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

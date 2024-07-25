@@ -1,0 +1,9 @@
+{
+	"name": "aniket-covid-19-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ae12aeef-7edf-49d5-8bd4-bdede38e94e3",
+		"tenantId": "29dc5de4-3b49-4f13-a1a0-94ba8ec9e9a3"
+	}
+}
