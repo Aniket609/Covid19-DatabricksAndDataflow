@@ -1192,7 +1192,7 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"notebookPath": "/Users/aniketchatterjee2000ee@outlook.com/population"
+							"notebookPath": "/Repos/aniketchatterjee2000ee@outlook.com/Covid19-DatabricksAndDataflow/population"
 						},
 						"linkedServiceName": {
 							"referenceName": "AzureDatabricksCovid19",
@@ -1212,7 +1212,7 @@
 						},
 						"userProperties": [],
 						"typeProperties": {
-							"notebookPath": "/Users/aniketchatterjee2000ee@outlook.com/testing"
+							"notebookPath": "/Repos/aniketchatterjee2000ee@outlook.com/Covid19-DatabricksAndDataflow/testing"
 						},
 						"linkedServiceName": {
 							"referenceName": "AzureDatabricksCovid19",
